@@ -1,0 +1,36 @@
+{
+  "name": "spms",
+  "homepage": "https://sstepano.github.io/SPMS_SL/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.7.0",
+    "axios": "^0.18.1",
+    "plotly.js": "^1.43.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-plotly.js": "^2.2.0",
+    "react-scripts": "2.1.1",
+    "recharts": "^1.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

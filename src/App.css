@@ -1,0 +1,101 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  /*width: 30%;*/
+  margin: 2.5%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 75px;
+}
+
+th {
+  background-color: bisque;
+}
+
+tr:nth-child(even) {
+  background-color: antiquewhite;
+}
+
+tbody {
+  display: block;
+  overflow: auto;
+  height: 200px;
+}
+
+thead, tr {
+  display: flex;
+}
+
+.tableOfStocks {
+  overflow: auto;
+  width: 100%;
+}
+
+.portfolio {
+  width: 485px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.row {
+  float: left;
+  margin: 5px;
+}
+
+.portfolioName {
+  margin-right: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.totalValue {
+  font-size: 14px;
+  padding-left: 10px;
+  margin: 0 0 10px 0;
+}
+
+button {
+  background-color: bisque;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.deletePortfolioBtn {
+  float: right;
+}
+
+.portfolioBtn {
+  margin: 10px;
+}
+
+.lastBtn {
+  float: right;
+}
+
+.portfolioTop, .portfolioBottom {
+  overflow: hidden; /*container that is floating does not influence the height of its container.
+                    In these divs all content is floating, so setting this will establish a new
+                    block formatting context*/
+}
+
+/* Darker background on mouse-over */
+button:hover {
+  background-color: black;
+  color: bisque;
+
+}
+
+/*tr:hover {background-color: black;
+color: white}*/
+
